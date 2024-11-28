@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1a1a1a;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    color: #4CAF50;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+/* Header Styles */
+.header {
+    background: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav a {
+    margin: 0 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header nav a:hover {
+    color: #4CAF50;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1920x600') center/cover no-repeat;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.cta-button {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background: #fff;
+    color: #4CAF50;
+}
+
+/* Workout Grid */
+.workout-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.workout-card {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.workout-card:hover {
+    background: #4CAF50;
+    transform: scale(1.05);
+    color: white;
+}
+
+.workout-card i {
+    font-size: 3rem;
+    color: #4CAF50;
+}
+
+.workout-card:hover i {
+    color: white;
+}
+
+/* Workout Details Section */
+.workout-details {
+    display: none;
+    padding: 50px;
+    background: #333;
+    text-align: center;
+}
+
+.workout-details:target {
+    display: block;
+}
+
+.back-button {
+    margin-top: 20px;
+    display: inline-block;
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background: #fff;
+    color: #4CAF50;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+form button {
+    background: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #fff;
+    color: #4CAF50;
+}
